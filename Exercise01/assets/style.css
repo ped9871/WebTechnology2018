@@ -67,6 +67,7 @@ h1 {
 }
 
 .profile-content>h1 {
+    margin-bottom: 0.2em;
     font-size: 3em;
     font-weight: 400;
 }
@@ -134,17 +135,9 @@ h1 {
 /* Footer */
 .footer {
     width: 100%;
+    padding: 32px;
     font-size: 1.1em;
     color: #17252a;
+    text-align: center;
     background-color: #def2f1;
-}
-
-.footer-left {
-    float: left;
-    padding: 32px;
-}
-
-.footer-right {
-    float: right;
-    padding: 32px;
 }
