@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Athiti:300,400,600&subset=thai');
+
+body {
+    font-family: 'Athiti', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Header */
+.header {
+    display: table;
+    width: 100%;
+    height: 100vh;
+    background-color: #3aafa9;
+}
+
+.header-content {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: #FEFFFF;
+}
+
+.header-content>h1 {
+    font-weight: 400;
+    font-size: 3em;
+}
+
+.header-content>img {
+    border-radius: 100%;
+    box-shadow: 0 2px 10px 5px rgba(0, 0, 0, 0.04);
+    border: #17252A 7px solid;
+    height: 30%;
+}
+
+.header-content>h2 {
+    margin-top: 1em;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+#header-name {
+    margin-top: -0.1em;
+}
+
+#header-subtitle {
+    margin-top: -0.5em;
+}
+
+/* Profile */
+.profile {
+    display: table;
+    width: 100%;
+    height: 100vh;
+    background-color: #17252A;
+}
+
+.profile-content {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: #FEFFFF;
+}
+
+.profile-content>h1 {
+    font-size: 3em;
+    font-weight: 400;
+}
+
+.profile-content>img {
+    width: 70%;
+    margin-bottom: 1em;
+    box-shadow: 0 2px 10px 5px rgba(0, 0, 0, 0.04);
+    border: #FEFFFF 7px solid;
+    border-radius: 1em;
+}
+
+.profile-content>p {
+    width: 50%;
+    margin: 0 auto;
+    text-align: justify;
+    text-indent: 1.5em;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+/* Work */
+.work {
+    display: table;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #2b7a78;
+}
+
+.work-content {
+    padding-top: 5em;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: #FEFFFF;
+}
+
+.work-content>h1 {
+    font-size: 3em;
+    font-weight: 400;
+}
+
+.work-content>h2 {
+    margin-top: -5px;
+    font-size: 1.8em;
+    font-weight: 400;
+}
+
+.work-card {
+    width: 60%;
+    margin: 0 auto 5em auto;
+}
+
+.work-card>img {
+    width: 100%;
+    height: auto;
+}
+
+.work-card>h2 {
+    margin-top: -1.5em;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    font-size: 1.1em;
+    color: #17252a;
+    background-color: #def2f1;
+}
+
+.footer-left {
+    float: left;
+    padding: 32px;
+}
+
+.footer-right {
+    float: right;
+    padding: 32px;
+}
