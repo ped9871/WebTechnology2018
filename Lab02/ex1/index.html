@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="" id="myForm" method="post">
+        <p>
+            <label for='NationalID'>หมายเลขบัตรประชาชน:</label>
+            <input type="text" id="NationalID" name="NationalID" maxlength="13" />
+        </p>
+        <p>
+            <label for='Prefix'>คำนำหน้า:</label>
+            <select id="Prefix" name="Prefix">
+                <option value="000" selected="selected">[เลือก]</option>
+                <option value="นาย">นาย</option>
+                <option value="นาง">นาง</option>
+                <option value="นางสาว">นางสาว</option>
+                <option value="เด็กชาย">เด็กชาย</option>
+                <option value="เด็กหญิง">เด็กหญิง</option>
+            </select>
+        </p>
+        <p>
+            <label for='FirstName'>ชื่อ:</label>
+            <input type="text" id="FirstName" name="FirstName" maxlength="20" />
+        </p>
+        <p>
+            <label for='LastName'>นามสกุล:</label>
+            <input type="text" id="LastName" name="LastName" maxlength="30" />
+        </p>
+        <p>
+            <label for='Address'>ที่อยู่:</label>
+            <textarea cols="20" rows="5" id="Address" name="Address"></textarea>
+        </p>
+        <p>
+            <label for='Tambon'>ตำบล / แขวง:</label>
+            <input type="text" id="Tambon" name="Tambon" />
+        </p>
+        <p>
+            <label for='Amphoe'>อำเภอ / เขต:</label>
+            <input type="text" id="Amphoe" name="Amphoe" />
+        </p>
+        <p>
+            <label for='Provice'>จังหวัด:</label>
+            <select id="Provice" name="Provice">
+                <option value="000" selected="selected">[เลือก]</option>
+                <option value="001">กรุงเทพมหานคร</option>
+                <option value="002">สมุทรปราการ</option>
+                <option value="003">เลย</option>
+                <option value="004">ชลบุรี</option>
+                <option value="005">นครปฐม</option>
+                <option value="006">บุรีรัมย์</option>
+            </select>
+        </p>
+        <p>
+            <label for='Postcode'>รหัสไปรษณีย์:</label>
+            <input type="text" id="Postcode" name="Postcode" maxlength="5" />
+        </p>
+        <p>
+            <label for='PhoneNumber'>เบอร์โทรศัพท์:</label>
+            <input type="text" id="PhoneNumber" name="PhoneNumber" />
+        </p>
+        <p>
+            <button type="submit" name="submit">ส่ง</button>
+
+        </p>
+    </form>
+</body>
+
+</html>
