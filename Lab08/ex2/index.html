@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lab 8-2</title>
+</head>
+
+<body>
+
+    <script>
+        let data = {
+            "username": "helloKitty",
+            "social_media": [{
+                    "description": "twitter",
+                    "link": "https://twitter.com/itwebtech"
+                },
+                {
+                    "description": "facebook",
+                    "link": "https://www.facebook.com/itwebtech"
+                }, {
+                    "description": "github",
+                    "link": "https://github.com/itwebtech"
+                }
+            ]
+        }
+
+        document.write(`Username: ${data.username}<br/>`)
+        document.write('Social Media<br/><ol>')
+        data.social_media.forEach(s => {
+            document.write(`<li><a href="${s.link}">${s.description}</a></li>`)
+        })
+        document.write('</ol>')
+    </script>
+</body>
+
+</html>
