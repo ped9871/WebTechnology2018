@@ -1,0 +1,25 @@
+.content {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1em;
+  grid-template: 'a a';
+}
+
+.card {
+  background-color: #000;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card p {
+  color: #fff;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .content {
+    grid-template: 'a';
+  }
+}

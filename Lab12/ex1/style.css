@@ -1,0 +1,10 @@
+.content {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template: 'a a a';
+}
+@media (max-width: 400px) {
+  .content {
+    grid-template: 'a';
+  }
+}
